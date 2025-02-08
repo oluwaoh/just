@@ -7,7 +7,7 @@ on:
       - '.github/workflows/build.yml'
       - '.github/workflows/xortool.yml'
       - 'src/**'
-      - 'cargo.toml'
+      - 'Cargo.toml'
       - 'Cargo.lock'
   pull_request:
     branches: [ "main" ]
@@ -15,7 +15,7 @@ on:
       - '.github/workflows/build.yml'
       - '.github/workflows/xortool.yml'
       - 'src/**'
-      - 'cargo.toml'
+      - 'Cargo.toml'
       - 'Cargo.lock'
   workflow_dispatch:
 
